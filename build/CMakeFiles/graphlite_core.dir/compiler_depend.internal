@@ -295,6 +295,7 @@ CMakeFiles/graphlite_core.dir/src/graph.cpp.obj
  D:/Projects/GraphLite GDBMS/include/graphlite/edge.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/graph.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/graph_snapshot.hpp
+ D:/Projects/GraphLite GDBMS/include/graphlite/name_validation.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/node.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/value.hpp
 
@@ -511,6 +512,7 @@ CMakeFiles/graphlite_core.dir/src/graph_manager.cpp.obj
  D:/Projects/GraphLite GDBMS/include/graphlite/graph.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/graph_manager.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/graph_snapshot.hpp
+ D:/Projects/GraphLite GDBMS/include/graphlite/name_validation.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/node.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/result.hpp
  D:/Projects/GraphLite GDBMS/include/graphlite/storage_error.hpp

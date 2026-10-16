@@ -293,6 +293,7 @@ CMakeFiles/graphlite_core.dir/src/graph.cpp.obj: D:/Projects/GraphLite\ GDBMS/sr
   D:/Projects/GraphLite\ GDBMS/include/graphlite/edge.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/graph.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/graph_snapshot.hpp \
+  D:/Projects/GraphLite\ GDBMS/include/graphlite/name_validation.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/node.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/value.hpp
 
@@ -508,6 +509,7 @@ CMakeFiles/graphlite_core.dir/src/graph_manager.cpp.obj: D:/Projects/GraphLite\ 
   D:/Projects/GraphLite\ GDBMS/include/graphlite/graph.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/graph_manager.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/graph_snapshot.hpp \
+  D:/Projects/GraphLite\ GDBMS/include/graphlite/name_validation.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/node.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/result.hpp \
   D:/Projects/GraphLite\ GDBMS/include/graphlite/storage_error.hpp \
@@ -1318,6 +1320,8 @@ C:/msys64/ucrt64/include/c++/16.2.0/bits/node_handle.h:
 
 C:/msys64/ucrt64/include/c++/16.2.0/bits/string_view.tcc:
 
+D:/Projects/GraphLite\ GDBMS/include/graphlite/name_validation.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mwaitintrin.h:
 
 C:/msys64/ucrt64/include/c++/16.2.0/bits/ostream_insert.h:
@@ -1410,11 +1414,11 @@ C:/msys64/ucrt64/include/c++/16.2.0/debug/debug.h:
 
 C:/msys64/ucrt64/include/realtimeapiset.h:
 
-C:/msys64/ucrt64/include/c++/16.2.0/ext/aligned_buffer.h:
+C:/msys64/ucrt64/include/wow64apiset.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/wmmintrin.h:
 
-C:/msys64/ucrt64/include/wow64apiset.h:
+C:/msys64/ucrt64/include/c++/16.2.0/ext/aligned_buffer.h:
 
 C:/msys64/ucrt64/include/c++/16.2.0/ext/alloc_traits.h:
 

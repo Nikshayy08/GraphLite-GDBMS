@@ -171,6 +171,12 @@ void printError(StorageError error, const std::string& context = {}) {
         case StorageError::MissingEdge:
             message = "The specified edge does not exist.";
             break;
+        case StorageError::InvalidName:
+            message = "Names must start with an ASCII letter or underscore and contain only ASCII letters, digits, or underscores.";
+            break;
+        case StorageError::MissingProperty:
+            message = "The specified property does not exist.";
+            break;
         default:
             message = "An unknown database error occurred.";
             break;
@@ -315,8 +321,10 @@ int main(int argc, char* argv[]) {
             if (visits.empty() && manager.graph().getNode(a) == nullptr) {
                 std::cerr << "Start node not found.\n"; continue;
             }
-            std::cout << "BFS:";
-            for (const auto id : visits) std::cout << ' ' << id;
+            std::cout << "BFS (node:depth):";
+            for (const auto& [id, depth] : visits) {
+                std::cout << ' ' << id << ':' << depth;
+            }
             std::cout << '\n';
         } else {
             std::cerr << "Invalid command. Type HELP for usage.\n";

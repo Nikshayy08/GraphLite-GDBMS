@@ -136,6 +136,9 @@ CMakeFiles/graphlite_core.dir/src/graph.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/include/c++/16.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/nested_exception.h \
+ C:/msys64/ucrt64/include/c++/16.2.0/utility \
+ C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_relops.h \
+ D:/Projects/GraphLite\ GDBMS/include/graphlite/name_validation.hpp \
  C:/msys64/ucrt64/include/c++/16.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_algo.h \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/algorithmfwd.h \
@@ -154,6 +157,4 @@ CMakeFiles/graphlite_core.dir/src/graph.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.2.0/deque \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_deque.h \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/deque.tcc \
- C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_queue.h \
- C:/msys64/ucrt64/include/c++/16.2.0/utility \
- C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_relops.h
+ C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_queue.h

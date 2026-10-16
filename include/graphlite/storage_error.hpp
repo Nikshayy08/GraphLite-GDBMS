@@ -16,7 +16,11 @@ enum class StorageError {
     SelfLoop,
     UnsupportedVersion,
     NotReady,
-    MissingEdge
+    MissingEdge,
+
+    // New validation and property errors.
+    InvalidName,
+    MissingProperty
 };
 
 } // namespace graphlite

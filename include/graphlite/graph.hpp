@@ -1,4 +1,3 @@
-
 #pragma once
 
 #include "graphlite/graph_snapshot.hpp"
@@ -10,6 +9,7 @@
 #include <optional>
 #include <string>
 #include <unordered_map>
+#include <utility>
 #include <vector>
 
 namespace graphlite {
@@ -84,7 +84,8 @@ public:
     size_t nodeCount() const;
     size_t edgeCount() const;
 
-    std::vector<uint64_t> bfs(
+    // Returns each visited node with its minimum hop depth from the start.
+    std::vector<std::pair<uint64_t, size_t>> bfs(
         uint64_t startNodeId,
         size_t maxDepth = static_cast<size_t>(-1),
         std::optional<std::string> label = std::nullopt

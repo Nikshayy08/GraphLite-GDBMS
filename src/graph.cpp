@@ -1,5 +1,5 @@
-
 #include "graphlite/graph.hpp"
+#include "graphlite/name_validation.hpp"
 
 #include <algorithm>
 #include <cstdint>
@@ -39,8 +39,9 @@ bool Graph::addEdge(
     std::uint64_t targetId,
     const std::string& label
 ) {
-    // Reject self-loops and edges with missing endpoints.
-    if (sourceId == targetId ||
+    // Reject invalid labels, self-loops and edges with missing endpoints.
+    if (!isValidName(label) ||
+        sourceId == targetId ||
         nodes_.find(sourceId) == nodes_.end() ||
         nodes_.find(targetId) == nodes_.end()) {
         return false;
@@ -236,12 +237,12 @@ std::size_t Graph::edgeCount() const {
     return edges_.size();
 }
 
-std::vector<std::uint64_t> Graph::bfs(
+std::vector<std::pair<std::uint64_t, std::size_t>> Graph::bfs(
     std::uint64_t startNodeId,
     std::size_t maxDepth,
     std::optional<std::string> label
 ) const {
-    std::vector<std::uint64_t> visitedOrder;
+    std::vector<std::pair<std::uint64_t, std::size_t>> visitedOrder;
 
     if (nodes_.find(startNodeId) == nodes_.end()) {
         return visitedOrder;
@@ -257,7 +258,7 @@ std::vector<std::uint64_t> Graph::bfs(
         auto [current, depth] = pending.front();
         pending.pop();
 
-        visitedOrder.push_back(current);
+        visitedOrder.emplace_back(current, depth);
 
         // Do not explore beyond the requested depth.
         if (depth >= maxDepth) {
@@ -332,8 +333,15 @@ bool Graph::importSnapshot(const GraphSnapshot& snapshot) {
     // the current graph.
     Graph candidate;
 
-    // Rebuild nodes and reject duplicate IDs.
+    // Rebuild nodes and reject duplicate IDs or invalid property names.
     for (const auto& node : snapshot.nodes) {
+        for (const auto& [propertyName, value] : node.getProperties()) {
+            (void)value;
+            if (!isValidName(propertyName)) {
+                return false;
+            }
+        }
+
         auto result = candidate.nodes_.emplace(
             node.getId(), node
         );
@@ -348,10 +356,20 @@ bool Graph::importSnapshot(const GraphSnapshot& snapshot) {
         const std::uint64_t source = edge.getSourceId();
         const std::uint64_t target = edge.getTargetId();
 
-        if (source == target ||
+        // Reject invalid labels, invalid edge property names,
+        // self-loops and missing endpoints.
+        if (!isValidName(edge.getLabel()) ||
+            source == target ||
             candidate.nodes_.find(source) == candidate.nodes_.end() ||
             candidate.nodes_.find(target) == candidate.nodes_.end()) {
             return false;
+        }
+
+        for (const auto& [propertyName, value] : edge.getProperties()) {
+            (void)value;
+            if (!isValidName(propertyName)) {
+                return false;
+            }
         }
 
         EdgeKey key{source, target, edge.getLabel()};

@@ -16,6 +16,7 @@
 #include <ios>
 #include <variant>
 #include <system_error>
+#include <utility>
 
 using namespace graphlite;
 
@@ -240,7 +241,7 @@ TEST(BfsTest, VisitsNodesInBreadthFirstOrder) {
     graph.addEdge(3, 4, "LINK");
 
     EXPECT_EQ(graph.bfs(1),
-              (std::vector<uint64_t>{1, 2, 3, 4}));
+              (std::vector<std::pair<uint64_t, size_t>>{{1, 0}, {2, 1}, {3, 1}, {4, 2}}));
 }
 
 TEST(BfsTest, HandlesCyclesWithoutRepeatingNodes) {
@@ -255,7 +256,7 @@ TEST(BfsTest, HandlesCyclesWithoutRepeatingNodes) {
     graph.addEdge(3, 1, "LINK");
 
     EXPECT_EQ(graph.bfs(1),
-              (std::vector<uint64_t>{1, 2, 3}));
+              (std::vector<std::pair<uint64_t, size_t>>{{1, 0}, {2, 1}, {3, 2}}));
 }
 
 TEST(BfsTest, ReturnsEmptyForMissingStartNode) {
@@ -275,7 +276,7 @@ TEST(BfsTest, VisitsOnlyReachableNodes) {
     graph.addEdge(3, 4, "LINK");
 
     EXPECT_EQ(graph.bfs(1),
-              (std::vector<uint64_t>{1, 2}));
+              (std::vector<std::pair<uint64_t, size_t>>{{1, 0}, {2, 1}}));
 }
 
 TEST(BfsTest, RespectsMaximumDepth) {
@@ -289,7 +290,7 @@ TEST(BfsTest, RespectsMaximumDepth) {
     graph.addEdge(2, 3, "LINK");
 
     EXPECT_EQ(graph.bfs(1, 1),
-              (std::vector<uint64_t>{1, 2}));
+              (std::vector<std::pair<uint64_t, size_t>>{{1, 0}, {2, 1}}));
 }
 
 TEST(BfsTest, FiltersEdgesByLabel) {
@@ -304,10 +305,43 @@ TEST(BfsTest, FiltersEdgesByLabel) {
 
     EXPECT_EQ(
         graph.bfs(1, static_cast<size_t>(-1), "FOLLOWS"),
-        (std::vector<uint64_t>{1, 2})
+        (std::vector<std::pair<uint64_t, size_t>>{{1, 0}, {2, 1}})
     );
 }
 
+
+TEST(BfsTest, ReportsMinimumHopDepthWhenMultipleRoutesExist) {
+    Graph graph;
+
+    for (uint64_t id = 1; id <= 5; ++id) {
+        graph.addNode(id);
+    }
+
+    graph.addEdge(1, 2, "LINK");
+    graph.addEdge(1, 3, "LINK");
+    graph.addEdge(2, 4, "LINK");
+    graph.addEdge(4, 5, "LINK");
+    graph.addEdge(3, 5, "LINK");
+
+    EXPECT_EQ(
+        graph.bfs(1),
+        (std::vector<std::pair<uint64_t, size_t>>{
+            {1, 0}, {2, 1}, {3, 1}, {4, 2}, {5, 2}
+        })
+    );
+}
+
+TEST(BfsTest, DepthZeroReturnsOnlyTheStartNodeAtDepthZero) {
+    Graph graph;
+    graph.addNode(7);
+    graph.addNode(8);
+    graph.addEdge(7, 8, "LINK");
+
+    EXPECT_EQ(
+        graph.bfs(7, 0),
+        (std::vector<std::pair<uint64_t, size_t>>{{7, 0}})
+    );
+}
 // ---------------- Graph Snapshot Tests ----------------
 
 TEST(GraphSnapshotTest, ExportPreservesNodesEdgesAndProperties) {
@@ -1195,4 +1229,50 @@ TEST_F(GraphManagerTest, FailedNodePropertySaveDoesNotCommitToMemory) {
     );
 
     EXPECT_TRUE(backupContains(1, 0));
+}
+
+
+// ------------------------------------------------------------
+// Name validation and missing-property regression tests
+// ------------------------------------------------------------
+
+TEST_F(GraphManagerTest, RejectsInvalidNamesWithoutChangingGraph) {
+    GraphManager manager(path_);
+    ASSERT_TRUE(manager.open().hasValue());
+    ASSERT_TRUE(manager.createNode(1).hasValue());
+    ASSERT_TRUE(manager.createNode(2).hasValue());
+
+    auto invalidEdgeLabel = manager.createEdge(1, 2, "INVALID-LABEL");
+    auto invalidNodeProperty = manager.setNodeProperty(
+        1, "invalid key", Value{std::string("value")}
+    );
+
+    ASSERT_FALSE(invalidEdgeLabel.hasValue());
+    EXPECT_EQ(invalidEdgeLabel.error(), StorageError::InvalidName);
+    ASSERT_FALSE(invalidNodeProperty.hasValue());
+    EXPECT_EQ(invalidNodeProperty.error(), StorageError::InvalidName);
+
+    EXPECT_EQ(manager.graph().edgeCount(), 0);
+    EXPECT_EQ(manager.graph().getNode(1)->getProperty("invalid key"), nullptr);
+}
+
+TEST_F(GraphManagerTest, RemovingMissingPropertiesReturnsMissingProperty) {
+    GraphManager manager(path_);
+    ASSERT_TRUE(manager.open().hasValue());
+    ASSERT_TRUE(manager.createNode(1).hasValue());
+    ASSERT_TRUE(manager.createNode(2).hasValue());
+    ASSERT_TRUE(manager.createEdge(1, 2, "FOLLOWS").hasValue());
+
+    auto missingNodeProperty = manager.removeNodeProperty(1, "missing");
+    auto missingEdgeProperty = manager.removeEdgeProperty(
+        1, 2, "FOLLOWS", "missing"
+    );
+
+    ASSERT_FALSE(missingNodeProperty.hasValue());
+    EXPECT_EQ(missingNodeProperty.error(), StorageError::MissingProperty);
+    ASSERT_FALSE(missingEdgeProperty.hasValue());
+    EXPECT_EQ(missingEdgeProperty.error(), StorageError::MissingProperty);
+
+    EXPECT_EQ(manager.graph().nodeCount(), 2);
+    EXPECT_EQ(manager.graph().edgeCount(), 1);
 }

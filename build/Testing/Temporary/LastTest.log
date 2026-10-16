@@ -1,10 +1,10 @@
-Start testing: Oct 16 19:35 India Standard Time
+Start testing: Oct 16 22:43 India Standard Time
 ----------------------------------------------------------
-1/59 Testing: NodeTest.CreatesNodeWithCorrectId
-1/59 Test: NodeTest.CreatesNodeWithCorrectId
+1/63 Testing: NodeTest.CreatesNodeWithCorrectId
+1/63 Test: NodeTest.CreatesNodeWithCorrectId
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=NodeTest.CreatesNodeWithCorrectId" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"NodeTest.CreatesNodeWithCorrectId" start time: Oct 16 19:35 India Standard Time
+"NodeTest.CreatesNodeWithCorrectId" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = NodeTest.CreatesNodeWithCorrectId
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.CreatesNodeWithCorrectId" end time: Oct 16 19:35 India Standard Time
+"NodeTest.CreatesNodeWithCorrectId" end time: Oct 16 22:43 India Standard Time
 "NodeTest.CreatesNodeWithCorrectId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/59 Testing: NodeTest.AddsAndReadsProperty
-2/59 Test: NodeTest.AddsAndReadsProperty
+2/63 Testing: NodeTest.AddsAndReadsProperty
+2/63 Test: NodeTest.AddsAndReadsProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=NodeTest.AddsAndReadsProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"NodeTest.AddsAndReadsProperty" start time: Oct 16 19:35 India Standard Time
+"NodeTest.AddsAndReadsProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = NodeTest.AddsAndReadsProperty
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.AddsAndReadsProperty" end time: Oct 16 19:35 India Standard Time
+"NodeTest.AddsAndReadsProperty" end time: Oct 16 22:43 India Standard Time
 "NodeTest.AddsAndReadsProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/59 Testing: NodeTest.UpdatesExistingProperty
-3/59 Test: NodeTest.UpdatesExistingProperty
+3/63 Testing: NodeTest.UpdatesExistingProperty
+3/63 Test: NodeTest.UpdatesExistingProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=NodeTest.UpdatesExistingProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"NodeTest.UpdatesExistingProperty" start time: Oct 16 19:35 India Standard Time
+"NodeTest.UpdatesExistingProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = NodeTest.UpdatesExistingProperty
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.UpdatesExistingProperty" end time: Oct 16 19:35 India Standard Time
+"NodeTest.UpdatesExistingProperty" end time: Oct 16 22:43 India Standard Time
 "NodeTest.UpdatesExistingProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/59 Testing: NodeTest.RemovesProperty
-4/59 Test: NodeTest.RemovesProperty
+4/63 Testing: NodeTest.RemovesProperty
+4/63 Test: NodeTest.RemovesProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=NodeTest.RemovesProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"NodeTest.RemovesProperty" start time: Oct 16 19:35 India Standard Time
+"NodeTest.RemovesProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = NodeTest.RemovesProperty
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.RemovesProperty" end time: Oct 16 19:35 India Standard Time
+"NodeTest.RemovesProperty" end time: Oct 16 22:43 India Standard Time
 "NodeTest.RemovesProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/59 Testing: NodeTest.HandlesMissingProperty
-5/59 Test: NodeTest.HandlesMissingProperty
+5/63 Testing: NodeTest.HandlesMissingProperty
+5/63 Test: NodeTest.HandlesMissingProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=NodeTest.HandlesMissingProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"NodeTest.HandlesMissingProperty" start time: Oct 16 19:35 India Standard Time
+"NodeTest.HandlesMissingProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = NodeTest.HandlesMissingProperty
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.HandlesMissingProperty" end time: Oct 16 19:35 India Standard Time
+"NodeTest.HandlesMissingProperty" end time: Oct 16 22:43 India Standard Time
 "NodeTest.HandlesMissingProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/59 Testing: EdgeTest.CreatesEdgeWithCorrectFields
-6/59 Test: EdgeTest.CreatesEdgeWithCorrectFields
+6/63 Testing: EdgeTest.CreatesEdgeWithCorrectFields
+6/63 Test: EdgeTest.CreatesEdgeWithCorrectFields
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=EdgeTest.CreatesEdgeWithCorrectFields" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"EdgeTest.CreatesEdgeWithCorrectFields" start time: Oct 16 19:35 India Standard Time
+"EdgeTest.CreatesEdgeWithCorrectFields" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = EdgeTest.CreatesEdgeWithCorrectFields
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"EdgeTest.CreatesEdgeWithCorrectFields" end time: Oct 16 19:35 India Standard Time
+"EdgeTest.CreatesEdgeWithCorrectFields" end time: Oct 16 22:43 India Standard Time
 "EdgeTest.CreatesEdgeWithCorrectFields" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/59 Testing: EdgeTest.AddsAndReadsProperty
-7/59 Test: EdgeTest.AddsAndReadsProperty
+7/63 Testing: EdgeTest.AddsAndReadsProperty
+7/63 Test: EdgeTest.AddsAndReadsProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=EdgeTest.AddsAndReadsProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"EdgeTest.AddsAndReadsProperty" start time: Oct 16 19:35 India Standard Time
+"EdgeTest.AddsAndReadsProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -182,18 +182,18 @@ Note: Google Test filter = EdgeTest.AddsAndReadsProperty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"EdgeTest.AddsAndReadsProperty" end time: Oct 16 19:35 India Standard Time
+"EdgeTest.AddsAndReadsProperty" end time: Oct 16 22:43 India Standard Time
 "EdgeTest.AddsAndReadsProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/59 Testing: EdgeTest.UpdatesExistingProperty
-8/59 Test: EdgeTest.UpdatesExistingProperty
+8/63 Testing: EdgeTest.UpdatesExistingProperty
+8/63 Test: EdgeTest.UpdatesExistingProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=EdgeTest.UpdatesExistingProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"EdgeTest.UpdatesExistingProperty" start time: Oct 16 19:35 India Standard Time
+"EdgeTest.UpdatesExistingProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = EdgeTest.UpdatesExistingProperty
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"EdgeTest.UpdatesExistingProperty" end time: Oct 16 19:35 India Standard Time
+"EdgeTest.UpdatesExistingProperty" end time: Oct 16 22:43 India Standard Time
 "EdgeTest.UpdatesExistingProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/59 Testing: EdgeTest.RemovesProperty
-9/59 Test: EdgeTest.RemovesProperty
+9/63 Testing: EdgeTest.RemovesProperty
+9/63 Test: EdgeTest.RemovesProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=EdgeTest.RemovesProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"EdgeTest.RemovesProperty" start time: Oct 16 19:35 India Standard Time
+"EdgeTest.RemovesProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -236,18 +236,18 @@ Note: Google Test filter = EdgeTest.RemovesProperty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"EdgeTest.RemovesProperty" end time: Oct 16 19:35 India Standard Time
+"EdgeTest.RemovesProperty" end time: Oct 16 22:43 India Standard Time
 "EdgeTest.RemovesProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/59 Testing: EdgeTest.HandlesMissingProperty
-10/59 Test: EdgeTest.HandlesMissingProperty
+10/63 Testing: EdgeTest.HandlesMissingProperty
+10/63 Test: EdgeTest.HandlesMissingProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=EdgeTest.HandlesMissingProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"EdgeTest.HandlesMissingProperty" start time: Oct 16 19:35 India Standard Time
+"EdgeTest.HandlesMissingProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -263,18 +263,18 @@ Note: Google Test filter = EdgeTest.HandlesMissingProperty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"EdgeTest.HandlesMissingProperty" end time: Oct 16 19:35 India Standard Time
+"EdgeTest.HandlesMissingProperty" end time: Oct 16 22:43 India Standard Time
 "EdgeTest.HandlesMissingProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/59 Testing: GraphTest.AddsAndRetrievesNode
-11/59 Test: GraphTest.AddsAndRetrievesNode
+11/63 Testing: GraphTest.AddsAndRetrievesNode
+11/63 Test: GraphTest.AddsAndRetrievesNode
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.AddsAndRetrievesNode" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.AddsAndRetrievesNode" start time: Oct 16 19:35 India Standard Time
+"GraphTest.AddsAndRetrievesNode" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -290,18 +290,18 @@ Note: Google Test filter = GraphTest.AddsAndRetrievesNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.AddsAndRetrievesNode" end time: Oct 16 19:35 India Standard Time
+"GraphTest.AddsAndRetrievesNode" end time: Oct 16 22:43 India Standard Time
 "GraphTest.AddsAndRetrievesNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/59 Testing: GraphTest.RejectsDuplicateNode
-12/59 Test: GraphTest.RejectsDuplicateNode
+12/63 Testing: GraphTest.RejectsDuplicateNode
+12/63 Test: GraphTest.RejectsDuplicateNode
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RejectsDuplicateNode" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RejectsDuplicateNode" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsDuplicateNode" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -317,18 +317,18 @@ Note: Google Test filter = GraphTest.RejectsDuplicateNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RejectsDuplicateNode" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsDuplicateNode" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RejectsDuplicateNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/59 Testing: GraphTest.AddsAndRetrievesEdge
-13/59 Test: GraphTest.AddsAndRetrievesEdge
+13/63 Testing: GraphTest.AddsAndRetrievesEdge
+13/63 Test: GraphTest.AddsAndRetrievesEdge
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.AddsAndRetrievesEdge" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.AddsAndRetrievesEdge" start time: Oct 16 19:35 India Standard Time
+"GraphTest.AddsAndRetrievesEdge" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = GraphTest.AddsAndRetrievesEdge
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.AddsAndRetrievesEdge" end time: Oct 16 19:35 India Standard Time
+"GraphTest.AddsAndRetrievesEdge" end time: Oct 16 22:43 India Standard Time
 "GraphTest.AddsAndRetrievesEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/59 Testing: GraphTest.AllowsDifferentLabelsBetweenSameNodes
-14/59 Test: GraphTest.AllowsDifferentLabelsBetweenSameNodes
+14/63 Testing: GraphTest.AllowsDifferentLabelsBetweenSameNodes
+14/63 Test: GraphTest.AllowsDifferentLabelsBetweenSameNodes
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.AllowsDifferentLabelsBetweenSameNodes" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.AllowsDifferentLabelsBetweenSameNodes" start time: Oct 16 19:35 India Standard Time
+"GraphTest.AllowsDifferentLabelsBetweenSameNodes" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = GraphTest.AllowsDifferentLabelsBetweenSameNodes
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.AllowsDifferentLabelsBetweenSameNodes" end time: Oct 16 19:35 India Standard Time
+"GraphTest.AllowsDifferentLabelsBetweenSameNodes" end time: Oct 16 22:43 India Standard Time
 "GraphTest.AllowsDifferentLabelsBetweenSameNodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/59 Testing: GraphTest.RejectsDuplicateEdgeIdentity
-15/59 Test: GraphTest.RejectsDuplicateEdgeIdentity
+15/63 Testing: GraphTest.RejectsDuplicateEdgeIdentity
+15/63 Test: GraphTest.RejectsDuplicateEdgeIdentity
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RejectsDuplicateEdgeIdentity" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RejectsDuplicateEdgeIdentity" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsDuplicateEdgeIdentity" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -401,15 +401,15 @@ Note: Google Test filter = GraphTest.RejectsDuplicateEdgeIdentity
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RejectsDuplicateEdgeIdentity" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsDuplicateEdgeIdentity" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RejectsDuplicateEdgeIdentity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/59 Testing: GraphTest.RejectsEdgeWithMissingNode
-16/59 Test: GraphTest.RejectsEdgeWithMissingNode
+16/63 Testing: GraphTest.RejectsEdgeWithMissingNode
+16/63 Test: GraphTest.RejectsEdgeWithMissingNode
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RejectsEdgeWithMissingNode" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RejectsEdgeWithMissingNode" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsEdgeWithMissingNode" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -425,18 +425,18 @@ Note: Google Test filter = GraphTest.RejectsEdgeWithMissingNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RejectsEdgeWithMissingNode" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsEdgeWithMissingNode" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RejectsEdgeWithMissingNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/59 Testing: GraphTest.RejectsSelfLoop
-17/59 Test: GraphTest.RejectsSelfLoop
+17/63 Testing: GraphTest.RejectsSelfLoop
+17/63 Test: GraphTest.RejectsSelfLoop
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RejectsSelfLoop" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RejectsSelfLoop" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsSelfLoop" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -455,15 +455,15 @@ Note: Google Test filter = GraphTest.RejectsSelfLoop
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RejectsSelfLoop" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RejectsSelfLoop" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RejectsSelfLoop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/59 Testing: GraphTest.RemovesEdge
-18/59 Test: GraphTest.RemovesEdge
+18/63 Testing: GraphTest.RemovesEdge
+18/63 Test: GraphTest.RemovesEdge
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RemovesEdge" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RemovesEdge" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RemovesEdge" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -479,18 +479,18 @@ Note: Google Test filter = GraphTest.RemovesEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RemovesEdge" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RemovesEdge" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RemovesEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/59 Testing: GraphTest.RetrievesOutgoingEdges
-19/59 Test: GraphTest.RetrievesOutgoingEdges
+19/63 Testing: GraphTest.RetrievesOutgoingEdges
+19/63 Test: GraphTest.RetrievesOutgoingEdges
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RetrievesOutgoingEdges" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RetrievesOutgoingEdges" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RetrievesOutgoingEdges" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -506,18 +506,18 @@ Note: Google Test filter = GraphTest.RetrievesOutgoingEdges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RetrievesOutgoingEdges" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RetrievesOutgoingEdges" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RetrievesOutgoingEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/59 Testing: GraphTest.RetrievesIncomingEdges
-20/59 Test: GraphTest.RetrievesIncomingEdges
+20/63 Testing: GraphTest.RetrievesIncomingEdges
+20/63 Test: GraphTest.RetrievesIncomingEdges
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RetrievesIncomingEdges" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RetrievesIncomingEdges" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RetrievesIncomingEdges" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -533,18 +533,18 @@ Note: Google Test filter = GraphTest.RetrievesIncomingEdges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RetrievesIncomingEdges" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RetrievesIncomingEdges" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RetrievesIncomingEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/59 Testing: GraphTest.RemovingNodeRemovesConnectedEdges
-21/59 Test: GraphTest.RemovingNodeRemovesConnectedEdges
+21/63 Testing: GraphTest.RemovingNodeRemovesConnectedEdges
+21/63 Test: GraphTest.RemovingNodeRemovesConnectedEdges
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphTest.RemovingNodeRemovesConnectedEdges" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphTest.RemovingNodeRemovesConnectedEdges" start time: Oct 16 19:35 India Standard Time
+"GraphTest.RemovingNodeRemovesConnectedEdges" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -560,18 +560,18 @@ Note: Google Test filter = GraphTest.RemovingNodeRemovesConnectedEdges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphTest.RemovingNodeRemovesConnectedEdges" end time: Oct 16 19:35 India Standard Time
+"GraphTest.RemovingNodeRemovesConnectedEdges" end time: Oct 16 22:43 India Standard Time
 "GraphTest.RemovingNodeRemovesConnectedEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/59 Testing: BfsTest.VisitsNodesInBreadthFirstOrder
-22/59 Test: BfsTest.VisitsNodesInBreadthFirstOrder
+22/63 Testing: BfsTest.VisitsNodesInBreadthFirstOrder
+22/63 Test: BfsTest.VisitsNodesInBreadthFirstOrder
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.VisitsNodesInBreadthFirstOrder" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.VisitsNodesInBreadthFirstOrder" start time: Oct 16 19:35 India Standard Time
+"BfsTest.VisitsNodesInBreadthFirstOrder" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -587,18 +587,18 @@ Note: Google Test filter = BfsTest.VisitsNodesInBreadthFirstOrder
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.VisitsNodesInBreadthFirstOrder" end time: Oct 16 19:35 India Standard Time
+"BfsTest.VisitsNodesInBreadthFirstOrder" end time: Oct 16 22:43 India Standard Time
 "BfsTest.VisitsNodesInBreadthFirstOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/59 Testing: BfsTest.HandlesCyclesWithoutRepeatingNodes
-23/59 Test: BfsTest.HandlesCyclesWithoutRepeatingNodes
+23/63 Testing: BfsTest.HandlesCyclesWithoutRepeatingNodes
+23/63 Test: BfsTest.HandlesCyclesWithoutRepeatingNodes
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.HandlesCyclesWithoutRepeatingNodes" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.HandlesCyclesWithoutRepeatingNodes" start time: Oct 16 19:35 India Standard Time
+"BfsTest.HandlesCyclesWithoutRepeatingNodes" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -617,15 +617,15 @@ Note: Google Test filter = BfsTest.HandlesCyclesWithoutRepeatingNodes
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.HandlesCyclesWithoutRepeatingNodes" end time: Oct 16 19:35 India Standard Time
+"BfsTest.HandlesCyclesWithoutRepeatingNodes" end time: Oct 16 22:43 India Standard Time
 "BfsTest.HandlesCyclesWithoutRepeatingNodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/59 Testing: BfsTest.ReturnsEmptyForMissingStartNode
-24/59 Test: BfsTest.ReturnsEmptyForMissingStartNode
+24/63 Testing: BfsTest.ReturnsEmptyForMissingStartNode
+24/63 Test: BfsTest.ReturnsEmptyForMissingStartNode
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.ReturnsEmptyForMissingStartNode" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.ReturnsEmptyForMissingStartNode" start time: Oct 16 19:35 India Standard Time
+"BfsTest.ReturnsEmptyForMissingStartNode" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -641,18 +641,18 @@ Note: Google Test filter = BfsTest.ReturnsEmptyForMissingStartNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.ReturnsEmptyForMissingStartNode" end time: Oct 16 19:35 India Standard Time
+"BfsTest.ReturnsEmptyForMissingStartNode" end time: Oct 16 22:43 India Standard Time
 "BfsTest.ReturnsEmptyForMissingStartNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/59 Testing: BfsTest.VisitsOnlyReachableNodes
-25/59 Test: BfsTest.VisitsOnlyReachableNodes
+25/63 Testing: BfsTest.VisitsOnlyReachableNodes
+25/63 Test: BfsTest.VisitsOnlyReachableNodes
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.VisitsOnlyReachableNodes" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.VisitsOnlyReachableNodes" start time: Oct 16 19:35 India Standard Time
+"BfsTest.VisitsOnlyReachableNodes" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -668,18 +668,18 @@ Note: Google Test filter = BfsTest.VisitsOnlyReachableNodes
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.VisitsOnlyReachableNodes" end time: Oct 16 19:35 India Standard Time
+"BfsTest.VisitsOnlyReachableNodes" end time: Oct 16 22:43 India Standard Time
 "BfsTest.VisitsOnlyReachableNodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/59 Testing: BfsTest.RespectsMaximumDepth
-26/59 Test: BfsTest.RespectsMaximumDepth
+26/63 Testing: BfsTest.RespectsMaximumDepth
+26/63 Test: BfsTest.RespectsMaximumDepth
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.RespectsMaximumDepth" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.RespectsMaximumDepth" start time: Oct 16 19:35 India Standard Time
+"BfsTest.RespectsMaximumDepth" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -698,15 +698,15 @@ Note: Google Test filter = BfsTest.RespectsMaximumDepth
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.RespectsMaximumDepth" end time: Oct 16 19:35 India Standard Time
+"BfsTest.RespectsMaximumDepth" end time: Oct 16 22:43 India Standard Time
 "BfsTest.RespectsMaximumDepth" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/59 Testing: BfsTest.FiltersEdgesByLabel
-27/59 Test: BfsTest.FiltersEdgesByLabel
+27/63 Testing: BfsTest.FiltersEdgesByLabel
+27/63 Test: BfsTest.FiltersEdgesByLabel
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.FiltersEdgesByLabel" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"BfsTest.FiltersEdgesByLabel" start time: Oct 16 19:35 India Standard Time
+"BfsTest.FiltersEdgesByLabel" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -722,18 +722,72 @@ Note: Google Test filter = BfsTest.FiltersEdgesByLabel
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BfsTest.FiltersEdgesByLabel" end time: Oct 16 19:35 India Standard Time
+"BfsTest.FiltersEdgesByLabel" end time: Oct 16 22:43 India Standard Time
 "BfsTest.FiltersEdgesByLabel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/59 Testing: GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties
-28/59 Test: GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties
+28/63 Testing: BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist
+28/63 Test: BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BfsTest
+[ RUN      ] BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist
+[       OK ] BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist (0 ms)
+[----------] 1 test from BfsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist" end time: Oct 16 22:43 India Standard Time
+"BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/63 Testing: BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero
+29/63 Test: BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BfsTest
+[ RUN      ] BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero
+[       OK ] BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero (0 ms)
+[----------] 1 test from BfsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero" end time: Oct 16 22:43 India Standard Time
+"BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/63 Testing: GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties
+30/63 Test: GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" start time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -752,15 +806,15 @@ Note: Google Test filter = GraphSnapshotTest.ExportPreservesNodesEdgesAndPropert
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" end time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" end time: Oct 16 22:43 India Standard Time
 "GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/59 Testing: GraphSnapshotTest.ImportRebuildsGraphAndAdjacency
-29/59 Test: GraphSnapshotTest.ImportRebuildsGraphAndAdjacency
+31/63 Testing: GraphSnapshotTest.ImportRebuildsGraphAndAdjacency
+31/63 Test: GraphSnapshotTest.ImportRebuildsGraphAndAdjacency
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" start time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -779,15 +833,15 @@ Note: Google Test filter = GraphSnapshotTest.ImportRebuildsGraphAndAdjacency
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" end time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" end time: Oct 16 22:43 India Standard Time
 "GraphSnapshotTest.ImportRebuildsGraphAndAdjacency" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/59 Testing: GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph
-30/59 Test: GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph
+32/63 Testing: GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph
+32/63 Test: GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" start time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -806,15 +860,15 @@ Note: Google Test filter = GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangi
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" end time: Oct 16 19:35 India Standard Time
+"GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" end time: Oct 16 22:43 India Standard Time
 "GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-31/59 Testing: StorageManagerTest.RoundTripsGraphAndTypedProperties
-31/59 Test: StorageManagerTest.RoundTripsGraphAndTypedProperties
+33/63 Testing: StorageManagerTest.RoundTripsGraphAndTypedProperties
+33/63 Test: StorageManagerTest.RoundTripsGraphAndTypedProperties
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RoundTripsGraphAndTypedProperties" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RoundTripsGraphAndTypedProperties" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RoundTripsGraphAndTypedProperties" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -823,25 +877,25 @@ Note: Google Test filter = StorageManagerTest.RoundTripsGraphAndTypedProperties
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RoundTripsGraphAndTypedProperties
-[       OK ] StorageManagerTest.RoundTripsGraphAndTypedProperties (2 ms)
-[----------] 1 test from StorageManagerTest (2 ms total)
+[       OK ] StorageManagerTest.RoundTripsGraphAndTypedProperties (3 ms)
+[----------] 1 test from StorageManagerTest (3 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (3 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RoundTripsGraphAndTypedProperties" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RoundTripsGraphAndTypedProperties" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RoundTripsGraphAndTypedProperties" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-32/59 Testing: StorageManagerTest.MissingFileLoadsEmptySnapshot
-32/59 Test: StorageManagerTest.MissingFileLoadsEmptySnapshot
+34/63 Testing: StorageManagerTest.MissingFileLoadsEmptySnapshot
+34/63 Test: StorageManagerTest.MissingFileLoadsEmptySnapshot
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.MissingFileLoadsEmptySnapshot" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.MissingFileLoadsEmptySnapshot" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.MissingFileLoadsEmptySnapshot" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -854,21 +908,21 @@ Note: Google Test filter = StorageManagerTest.MissingFileLoadsEmptySnapshot
 [----------] 1 test from StorageManagerTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.MissingFileLoadsEmptySnapshot" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.MissingFileLoadsEmptySnapshot" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.MissingFileLoadsEmptySnapshot" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/59 Testing: StorageManagerTest.RejectsMalformedFile
-33/59 Test: StorageManagerTest.RejectsMalformedFile
+35/63 Testing: StorageManagerTest.RejectsMalformedFile
+35/63 Test: StorageManagerTest.RejectsMalformedFile
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsMalformedFile" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsMalformedFile" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsMalformedFile" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -877,25 +931,25 @@ Note: Google Test filter = StorageManagerTest.RejectsMalformedFile
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RejectsMalformedFile
-[       OK ] StorageManagerTest.RejectsMalformedFile (4 ms)
-[----------] 1 test from StorageManagerTest (4 ms total)
+[       OK ] StorageManagerTest.RejectsMalformedFile (1 ms)
+[----------] 1 test from StorageManagerTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (4 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsMalformedFile" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsMalformedFile" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsMalformedFile" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-34/59 Testing: StorageManagerTest.ReplacesExistingDatabaseOnSave
-34/59 Test: StorageManagerTest.ReplacesExistingDatabaseOnSave
+36/63 Testing: StorageManagerTest.ReplacesExistingDatabaseOnSave
+36/63 Test: StorageManagerTest.ReplacesExistingDatabaseOnSave
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.ReplacesExistingDatabaseOnSave" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.ReplacesExistingDatabaseOnSave" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.ReplacesExistingDatabaseOnSave" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -911,18 +965,18 @@ Note: Google Test filter = StorageManagerTest.ReplacesExistingDatabaseOnSave
 [==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.ReplacesExistingDatabaseOnSave" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.ReplacesExistingDatabaseOnSave" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.ReplacesExistingDatabaseOnSave" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-35/59 Testing: StorageManagerTest.RejectsNegativeNodeId
-35/59 Test: StorageManagerTest.RejectsNegativeNodeId
+37/63 Testing: StorageManagerTest.RejectsNegativeNodeId
+37/63 Test: StorageManagerTest.RejectsNegativeNodeId
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsNegativeNodeId" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsNegativeNodeId" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNegativeNodeId" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -931,25 +985,25 @@ Note: Google Test filter = StorageManagerTest.RejectsNegativeNodeId
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RejectsNegativeNodeId
-[       OK ] StorageManagerTest.RejectsNegativeNodeId (13 ms)
-[----------] 1 test from StorageManagerTest (13 ms total)
+[       OK ] StorageManagerTest.RejectsNegativeNodeId (2 ms)
+[----------] 1 test from StorageManagerTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (13 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsNegativeNodeId" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNegativeNodeId" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsNegativeNodeId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-36/59 Testing: StorageManagerTest.RejectsNonNumericNodeId
-36/59 Test: StorageManagerTest.RejectsNonNumericNodeId
+38/63 Testing: StorageManagerTest.RejectsNonNumericNodeId
+38/63 Test: StorageManagerTest.RejectsNonNumericNodeId
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsNonNumericNodeId" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsNonNumericNodeId" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNonNumericNodeId" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -958,25 +1012,25 @@ Note: Google Test filter = StorageManagerTest.RejectsNonNumericNodeId
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RejectsNonNumericNodeId
-[       OK ] StorageManagerTest.RejectsNonNumericNodeId (3 ms)
-[----------] 1 test from StorageManagerTest (3 ms total)
+[       OK ] StorageManagerTest.RejectsNonNumericNodeId (2 ms)
+[----------] 1 test from StorageManagerTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (3 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsNonNumericNodeId" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNonNumericNodeId" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsNonNumericNodeId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-37/59 Testing: StorageManagerTest.RejectsOverflowingNodeId
-37/59 Test: StorageManagerTest.RejectsOverflowingNodeId
+39/63 Testing: StorageManagerTest.RejectsOverflowingNodeId
+39/63 Test: StorageManagerTest.RejectsOverflowingNodeId
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsOverflowingNodeId" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsOverflowingNodeId" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsOverflowingNodeId" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -995,15 +1049,15 @@ Note: Google Test filter = StorageManagerTest.RejectsOverflowingNodeId
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsOverflowingNodeId" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsOverflowingNodeId" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsOverflowingNodeId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-38/59 Testing: StorageManagerTest.RejectsExtraTokensAfterNodeId
-38/59 Test: StorageManagerTest.RejectsExtraTokensAfterNodeId
+40/63 Testing: StorageManagerTest.RejectsExtraTokensAfterNodeId
+40/63 Test: StorageManagerTest.RejectsExtraTokensAfterNodeId
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsExtraTokensAfterNodeId" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsExtraTokensAfterNodeId" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsExtraTokensAfterNodeId" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1012,7 +1066,7 @@ Note: Google Test filter = StorageManagerTest.RejectsExtraTokensAfterNodeId
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RejectsExtraTokensAfterNodeId
-[       OK ] StorageManagerTest.RejectsExtraTokensAfterNodeId (2 ms)
+[       OK ] StorageManagerTest.RejectsExtraTokensAfterNodeId (3 ms)
 [----------] 1 test from StorageManagerTest (3 ms total)
 
 [----------] Global test environment tear-down
@@ -1022,15 +1076,15 @@ Note: Google Test filter = StorageManagerTest.RejectsExtraTokensAfterNodeId
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsExtraTokensAfterNodeId" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsExtraTokensAfterNodeId" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsExtraTokensAfterNodeId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/59 Testing: StorageManagerTest.RejectsNegativeEdgeEndpoint
-39/59 Test: StorageManagerTest.RejectsNegativeEdgeEndpoint
+41/63 Testing: StorageManagerTest.RejectsNegativeEdgeEndpoint
+41/63 Test: StorageManagerTest.RejectsNegativeEdgeEndpoint
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=StorageManagerTest.RejectsNegativeEdgeEndpoint" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"StorageManagerTest.RejectsNegativeEdgeEndpoint" start time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNegativeEdgeEndpoint" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1039,25 +1093,25 @@ Note: Google Test filter = StorageManagerTest.RejectsNegativeEdgeEndpoint
 [----------] Global test environment set-up.
 [----------] 1 test from StorageManagerTest
 [ RUN      ] StorageManagerTest.RejectsNegativeEdgeEndpoint
-[       OK ] StorageManagerTest.RejectsNegativeEdgeEndpoint (2 ms)
-[----------] 1 test from StorageManagerTest (2 ms total)
+[       OK ] StorageManagerTest.RejectsNegativeEdgeEndpoint (3 ms)
+[----------] 1 test from StorageManagerTest (3 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (3 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageManagerTest.RejectsNegativeEdgeEndpoint" end time: Oct 16 19:35 India Standard Time
+"StorageManagerTest.RejectsNegativeEdgeEndpoint" end time: Oct 16 22:43 India Standard Time
 "StorageManagerTest.RejectsNegativeEdgeEndpoint" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-40/59 Testing: GraphManagerTest.RejectsMutationBeforeOpen
-40/59 Test: GraphManagerTest.RejectsMutationBeforeOpen
+42/63 Testing: GraphManagerTest.RejectsMutationBeforeOpen
+42/63 Test: GraphManagerTest.RejectsMutationBeforeOpen
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RejectsMutationBeforeOpen" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.RejectsMutationBeforeOpen" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.RejectsMutationBeforeOpen" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1073,18 +1127,18 @@ Note: Google Test filter = GraphManagerTest.RejectsMutationBeforeOpen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.RejectsMutationBeforeOpen" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.RejectsMutationBeforeOpen" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.RejectsMutationBeforeOpen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-41/59 Testing: GraphManagerTest.OpensMissingDatabaseAsEmptyGraph
-41/59 Test: GraphManagerTest.OpensMissingDatabaseAsEmptyGraph
+43/63 Testing: GraphManagerTest.OpensMissingDatabaseAsEmptyGraph
+43/63 Test: GraphManagerTest.OpensMissingDatabaseAsEmptyGraph
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1103,15 +1157,15 @@ Note: Google Test filter = GraphManagerTest.OpensMissingDatabaseAsEmptyGraph
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.OpensMissingDatabaseAsEmptyGraph" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-42/59 Testing: GraphManagerTest.PersistsNodeAcrossRestart
-42/59 Test: GraphManagerTest.PersistsNodeAcrossRestart
+44/63 Testing: GraphManagerTest.PersistsNodeAcrossRestart
+44/63 Test: GraphManagerTest.PersistsNodeAcrossRestart
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsNodeAcrossRestart" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.PersistsNodeAcrossRestart" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.PersistsNodeAcrossRestart" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1120,7 +1174,34 @@ Note: Google Test filter = GraphManagerTest.PersistsNodeAcrossRestart
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.PersistsNodeAcrossRestart
-[       OK ] GraphManagerTest.PersistsNodeAcrossRestart (4 ms)
+[       OK ] GraphManagerTest.PersistsNodeAcrossRestart (18 ms)
+[----------] 1 test from GraphManagerTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.PersistsNodeAcrossRestart" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.PersistsNodeAcrossRestart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/63 Testing: GraphManagerTest.PersistsEdgesAcrossRestart
+45/63 Test: GraphManagerTest.PersistsEdgesAcrossRestart
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsEdgesAcrossRestart" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.PersistsEdgesAcrossRestart" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.PersistsEdgesAcrossRestart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.PersistsEdgesAcrossRestart
+[       OK ] GraphManagerTest.PersistsEdgesAcrossRestart (4 ms)
 [----------] 1 test from GraphManagerTest (4 ms total)
 
 [----------] Global test environment tear-down
@@ -1130,24 +1211,51 @@ Note: Google Test filter = GraphManagerTest.PersistsNodeAcrossRestart
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.PersistsNodeAcrossRestart" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.PersistsNodeAcrossRestart" time elapsed: 00:00:00
+"GraphManagerTest.PersistsEdgesAcrossRestart" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.PersistsEdgesAcrossRestart" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-43/59 Testing: GraphManagerTest.PersistsEdgesAcrossRestart
-43/59 Test: GraphManagerTest.PersistsEdgesAcrossRestart
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsEdgesAcrossRestart" "--gtest_also_run_disabled_tests"
+46/63 Testing: GraphManagerTest.DuplicateNodeDoesNotChangeGraph
+46/63 Test: GraphManagerTest.DuplicateNodeDoesNotChangeGraph
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.DuplicateNodeDoesNotChangeGraph" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.PersistsEdgesAcrossRestart" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.PersistsEdgesAcrossRestart
+Note: Google Test filter = GraphManagerTest.DuplicateNodeDoesNotChangeGraph
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.PersistsEdgesAcrossRestart
-[       OK ] GraphManagerTest.PersistsEdgesAcrossRestart (5 ms)
+[ RUN      ] GraphManagerTest.DuplicateNodeDoesNotChangeGraph
+[       OK ] GraphManagerTest.DuplicateNodeDoesNotChangeGraph (2 ms)
+[----------] 1 test from GraphManagerTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/63 Testing: GraphManagerTest.DeletingNodePersistsCascadeDeletion
+47/63 Test: GraphManagerTest.DeletingNodePersistsCascadeDeletion
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.DeletingNodePersistsCascadeDeletion" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.DeletingNodePersistsCascadeDeletion" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.DeletingNodePersistsCascadeDeletion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.DeletingNodePersistsCascadeDeletion
+[       OK ] GraphManagerTest.DeletingNodePersistsCascadeDeletion (5 ms)
 [----------] 1 test from GraphManagerTest (5 ms total)
 
 [----------] Global test environment tear-down
@@ -1157,69 +1265,15 @@ Note: Google Test filter = GraphManagerTest.PersistsEdgesAcrossRestart
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.PersistsEdgesAcrossRestart" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.PersistsEdgesAcrossRestart" time elapsed: 00:00:00
-----------------------------------------------------------
-
-44/59 Testing: GraphManagerTest.DuplicateNodeDoesNotChangeGraph
-44/59 Test: GraphManagerTest.DuplicateNodeDoesNotChangeGraph
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.DuplicateNodeDoesNotChangeGraph" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.DuplicateNodeDoesNotChangeGraph
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.DuplicateNodeDoesNotChangeGraph
-[       OK ] GraphManagerTest.DuplicateNodeDoesNotChangeGraph (1 ms)
-[----------] 1 test from GraphManagerTest (1 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.DuplicateNodeDoesNotChangeGraph" time elapsed: 00:00:00
-----------------------------------------------------------
-
-45/59 Testing: GraphManagerTest.DeletingNodePersistsCascadeDeletion
-45/59 Test: GraphManagerTest.DeletingNodePersistsCascadeDeletion
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.DeletingNodePersistsCascadeDeletion" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.DeletingNodePersistsCascadeDeletion" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.DeletingNodePersistsCascadeDeletion
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.DeletingNodePersistsCascadeDeletion
-[       OK ] GraphManagerTest.DeletingNodePersistsCascadeDeletion (4 ms)
-[----------] 1 test from GraphManagerTest (4 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (4 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.DeletingNodePersistsCascadeDeletion" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.DeletingNodePersistsCascadeDeletion" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.DeletingNodePersistsCascadeDeletion" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-46/59 Testing: GraphManagerTest.AllMutationsRejectCallsBeforeOpen
-46/59 Test: GraphManagerTest.AllMutationsRejectCallsBeforeOpen
+48/63 Testing: GraphManagerTest.AllMutationsRejectCallsBeforeOpen
+48/63 Test: GraphManagerTest.AllMutationsRejectCallsBeforeOpen
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.AllMutationsRejectCallsBeforeOpen" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.AllMutationsRejectCallsBeforeOpen" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.AllMutationsRejectCallsBeforeOpen" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1235,18 +1289,18 @@ Note: Google Test filter = GraphManagerTest.AllMutationsRejectCallsBeforeOpen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.AllMutationsRejectCallsBeforeOpen" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.AllMutationsRejectCallsBeforeOpen" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.AllMutationsRejectCallsBeforeOpen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-47/59 Testing: GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge
-47/59 Test: GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge
+49/63 Testing: GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge
+49/63 Test: GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1262,18 +1316,18 @@ Note: Google Test filter = GraphManagerTest.DeletingMissingEdgeReturnsMissingEdg
 [==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-48/59 Testing: GraphManagerTest.FailedReopenClearsGraphAndReadiness
-48/59 Test: GraphManagerTest.FailedReopenClearsGraphAndReadiness
+50/63 Testing: GraphManagerTest.FailedReopenClearsGraphAndReadiness
+50/63 Test: GraphManagerTest.FailedReopenClearsGraphAndReadiness
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedReopenClearsGraphAndReadiness" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedReopenClearsGraphAndReadiness" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedReopenClearsGraphAndReadiness" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1292,15 +1346,15 @@ Note: Google Test filter = GraphManagerTest.FailedReopenClearsGraphAndReadiness
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.FailedReopenClearsGraphAndReadiness" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedReopenClearsGraphAndReadiness" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.FailedReopenClearsGraphAndReadiness" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-49/59 Testing: GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory
-49/59 Test: GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory
+51/63 Testing: GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory
+51/63 Test: GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1309,115 +1363,7 @@ Note: Google Test filter = GraphManagerTest.FailedNodeCreateDoesNotCommitToMemor
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory
-[       OK ] GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory (3 ms)
-[----------] 1 test from GraphManagerTest (3 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (3 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" time elapsed: 00:00:00
-----------------------------------------------------------
-
-50/59 Testing: GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
-50/59 Test: GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
-[       OK ] GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory (3 ms)
-[----------] 1 test from GraphManagerTest (3 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (3 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" time elapsed: 00:00:00
-----------------------------------------------------------
-
-51/59 Testing: GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
-51/59 Test: GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
-[       OK ] GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory (5 ms)
-[----------] 1 test from GraphManagerTest (5 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (5 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" time elapsed: 00:00:00
-----------------------------------------------------------
-
-52/59 Testing: GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
-52/59 Test: GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
-[       OK ] GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory (6 ms)
-[----------] 1 test from GraphManagerTest (6 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" time elapsed: 00:00:00
-----------------------------------------------------------
-
-53/59 Testing: GraphManagerTest.PersistsNodePropertyAcrossRestart
-53/59 Test: GraphManagerTest.PersistsNodePropertyAcrossRestart
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsNodePropertyAcrossRestart" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.PersistsNodePropertyAcrossRestart" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.PersistsNodePropertyAcrossRestart
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.PersistsNodePropertyAcrossRestart
-[       OK ] GraphManagerTest.PersistsNodePropertyAcrossRestart (20 ms)
+[       OK ] GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory (20 ms)
 [----------] 1 test from GraphManagerTest (20 ms total)
 
 [----------] Global test environment tear-down
@@ -1427,51 +1373,24 @@ Note: Google Test filter = GraphManagerTest.PersistsNodePropertyAcrossRestart
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.PersistsNodePropertyAcrossRestart" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.PersistsNodePropertyAcrossRestart" time elapsed: 00:00:00
+"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-54/59 Testing: GraphManagerTest.UpdatesExistingNodeProperty
-54/59 Test: GraphManagerTest.UpdatesExistingNodeProperty
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.UpdatesExistingNodeProperty" "--gtest_also_run_disabled_tests"
+52/63 Testing: GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
+52/63 Test: GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.UpdatesExistingNodeProperty" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.UpdatesExistingNodeProperty
+Note: Google Test filter = GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.UpdatesExistingNodeProperty
-[       OK ] GraphManagerTest.UpdatesExistingNodeProperty (13 ms)
-[----------] 1 test from GraphManagerTest (14 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (14 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.03 sec
-----------------------------------------------------------
-Test Passed.
-"GraphManagerTest.UpdatesExistingNodeProperty" end time: Oct 16 19:35 India Standard Time
-"GraphManagerTest.UpdatesExistingNodeProperty" time elapsed: 00:00:00
-----------------------------------------------------------
-
-55/59 Testing: GraphManagerTest.RemovesNodeProperty
-55/59 Test: GraphManagerTest.RemovesNodeProperty
-Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RemovesNodeProperty" "--gtest_also_run_disabled_tests"
-Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.RemovesNodeProperty" start time: Oct 16 19:35 India Standard Time
-Output:
-----------------------------------------------------------
-Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GraphManagerTest.RemovesNodeProperty
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GraphManagerTest
-[ RUN      ] GraphManagerTest.RemovesNodeProperty
-[       OK ] GraphManagerTest.RemovesNodeProperty (5 ms)
+[ RUN      ] GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory
+[       OK ] GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory (5 ms)
 [----------] 1 test from GraphManagerTest (5 ms total)
 
 [----------] Global test environment tear-down
@@ -1481,15 +1400,150 @@ Note: Google Test filter = GraphManagerTest.RemovesNodeProperty
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.RemovesNodeProperty" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/63 Testing: GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
+53/63 Test: GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory
+[       OK ] GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory (6 ms)
+[----------] 1 test from GraphManagerTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/63 Testing: GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
+54/63 Test: GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory
+[       OK ] GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory (5 ms)
+[----------] 1 test from GraphManagerTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/63 Testing: GraphManagerTest.PersistsNodePropertyAcrossRestart
+55/63 Test: GraphManagerTest.PersistsNodePropertyAcrossRestart
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsNodePropertyAcrossRestart" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.PersistsNodePropertyAcrossRestart" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.PersistsNodePropertyAcrossRestart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.PersistsNodePropertyAcrossRestart
+[       OK ] GraphManagerTest.PersistsNodePropertyAcrossRestart (9 ms)
+[----------] 1 test from GraphManagerTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.PersistsNodePropertyAcrossRestart" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.PersistsNodePropertyAcrossRestart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/63 Testing: GraphManagerTest.UpdatesExistingNodeProperty
+56/63 Test: GraphManagerTest.UpdatesExistingNodeProperty
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.UpdatesExistingNodeProperty" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.UpdatesExistingNodeProperty" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.UpdatesExistingNodeProperty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.UpdatesExistingNodeProperty
+[       OK ] GraphManagerTest.UpdatesExistingNodeProperty (3 ms)
+[----------] 1 test from GraphManagerTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.UpdatesExistingNodeProperty" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.UpdatesExistingNodeProperty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/63 Testing: GraphManagerTest.RemovesNodeProperty
+57/63 Test: GraphManagerTest.RemovesNodeProperty
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RemovesNodeProperty" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.RemovesNodeProperty" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.RemovesNodeProperty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.RemovesNodeProperty
+[       OK ] GraphManagerTest.RemovesNodeProperty (4 ms)
+[----------] 1 test from GraphManagerTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.RemovesNodeProperty" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.RemovesNodeProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-56/59 Testing: GraphManagerTest.PersistsEdgePropertyAcrossRestart
-56/59 Test: GraphManagerTest.PersistsEdgePropertyAcrossRestart
+58/63 Testing: GraphManagerTest.PersistsEdgePropertyAcrossRestart
+58/63 Test: GraphManagerTest.PersistsEdgePropertyAcrossRestart
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PersistsEdgePropertyAcrossRestart" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.PersistsEdgePropertyAcrossRestart" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.PersistsEdgePropertyAcrossRestart" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1498,25 +1552,25 @@ Note: Google Test filter = GraphManagerTest.PersistsEdgePropertyAcrossRestart
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.PersistsEdgePropertyAcrossRestart
-[       OK ] GraphManagerTest.PersistsEdgePropertyAcrossRestart (9 ms)
-[----------] 1 test from GraphManagerTest (9 ms total)
+[       OK ] GraphManagerTest.PersistsEdgePropertyAcrossRestart (6 ms)
+[----------] 1 test from GraphManagerTest (6 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (9 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.PersistsEdgePropertyAcrossRestart" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.PersistsEdgePropertyAcrossRestart" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.PersistsEdgePropertyAcrossRestart" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-57/59 Testing: GraphManagerTest.RemovesEdgeProperty
-57/59 Test: GraphManagerTest.RemovesEdgeProperty
+59/63 Testing: GraphManagerTest.RemovesEdgeProperty
+59/63 Test: GraphManagerTest.RemovesEdgeProperty
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RemovesEdgeProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.RemovesEdgeProperty" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.RemovesEdgeProperty" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1525,25 +1579,25 @@ Note: Google Test filter = GraphManagerTest.RemovesEdgeProperty
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.RemovesEdgeProperty
-[       OK ] GraphManagerTest.RemovesEdgeProperty (12 ms)
-[----------] 1 test from GraphManagerTest (12 ms total)
+[       OK ] GraphManagerTest.RemovesEdgeProperty (5 ms)
+[----------] 1 test from GraphManagerTest (6 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (12 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.RemovesEdgeProperty" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.RemovesEdgeProperty" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.RemovesEdgeProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-58/59 Testing: GraphManagerTest.PropertyOperationsRejectMissingEntities
-58/59 Test: GraphManagerTest.PropertyOperationsRejectMissingEntities
+60/63 Testing: GraphManagerTest.PropertyOperationsRejectMissingEntities
+60/63 Test: GraphManagerTest.PropertyOperationsRejectMissingEntities
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.PropertyOperationsRejectMissingEntities" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.PropertyOperationsRejectMissingEntities" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.PropertyOperationsRejectMissingEntities" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1552,25 +1606,25 @@ Note: Google Test filter = GraphManagerTest.PropertyOperationsRejectMissingEntit
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.PropertyOperationsRejectMissingEntities
-[       OK ] GraphManagerTest.PropertyOperationsRejectMissingEntities (1 ms)
-[----------] 1 test from GraphManagerTest (1 ms total)
+[       OK ] GraphManagerTest.PropertyOperationsRejectMissingEntities (0 ms)
+[----------] 1 test from GraphManagerTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.PropertyOperationsRejectMissingEntities" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.PropertyOperationsRejectMissingEntities" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.PropertyOperationsRejectMissingEntities" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-59/59 Testing: GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory
-59/59 Test: GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory
+61/63 Testing: GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory
+61/63 Test: GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory
 Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" "--gtest_also_run_disabled_tests"
 Directory: D:/Projects/GraphLite GDBMS/build
-"GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" start time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" start time: Oct 16 22:43 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1579,18 +1633,72 @@ Note: Google Test filter = GraphManagerTest.FailedNodePropertySaveDoesNotCommitT
 [----------] Global test environment set-up.
 [----------] 1 test from GraphManagerTest
 [ RUN      ] GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory
-[       OK ] GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory (8 ms)
-[----------] 1 test from GraphManagerTest (8 ms total)
+[       OK ] GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory (4 ms)
+[----------] 1 test from GraphManagerTest (4 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (8 ms total)
+[==========] 1 test from 1 test suite ran. (4 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" end time: Oct 16 19:35 India Standard Time
+"GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" end time: Oct 16 22:43 India Standard Time
 "GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 16 19:35 India Standard Time
+62/63 Testing: GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph
+62/63 Test: GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph
+[       OK ] GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph (3 ms)
+[----------] 1 test from GraphManagerTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/63 Testing: GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty
+63/63 Test: GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty
+Command: "D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe" "--gtest_filter=GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/GraphLite GDBMS/build
+"GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty" start time: Oct 16 22:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\GraphLite GDBMS\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphManagerTest
+[ RUN      ] GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty
+[       OK ] GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty (3 ms)
+[----------] 1 test from GraphManagerTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty" end time: Oct 16 22:43 India Standard Time
+"GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 16 22:43 India Standard Time

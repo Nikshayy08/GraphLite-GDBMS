@@ -2,7 +2,7 @@ add_test([=[NodeTest.CreatesNodeWithCorrectId]=]  [==[D:/Projects/GraphLite GDBM
 set_tests_properties([=[NodeTest.CreatesNodeWithCorrectId]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:24]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:25]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -11,7 +11,7 @@ add_test([=[NodeTest.AddsAndReadsProperty]=]  [==[D:/Projects/GraphLite GDBMS/bu
 set_tests_properties([=[NodeTest.AddsAndReadsProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:29]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:30]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -20,7 +20,7 @@ add_test([=[NodeTest.UpdatesExistingProperty]=]  [==[D:/Projects/GraphLite GDBMS
 set_tests_properties([=[NodeTest.UpdatesExistingProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:38]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:39]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -29,7 +29,7 @@ add_test([=[NodeTest.RemovesProperty]=]  [==[D:/Projects/GraphLite GDBMS/build/g
 set_tests_properties([=[NodeTest.RemovesProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:46]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:47]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -38,7 +38,7 @@ add_test([=[NodeTest.HandlesMissingProperty]=]  [==[D:/Projects/GraphLite GDBMS/
 set_tests_properties([=[NodeTest.HandlesMissingProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:54]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:55]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -47,7 +47,7 @@ add_test([=[EdgeTest.CreatesEdgeWithCorrectFields]=]  [==[D:/Projects/GraphLite 
 set_tests_properties([=[EdgeTest.CreatesEdgeWithCorrectFields]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:63]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:64]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -56,7 +56,7 @@ add_test([=[EdgeTest.AddsAndReadsProperty]=]  [==[D:/Projects/GraphLite GDBMS/bu
 set_tests_properties([=[EdgeTest.AddsAndReadsProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:71]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:72]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -65,7 +65,7 @@ add_test([=[EdgeTest.UpdatesExistingProperty]=]  [==[D:/Projects/GraphLite GDBMS
 set_tests_properties([=[EdgeTest.UpdatesExistingProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:80]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:81]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -74,7 +74,7 @@ add_test([=[EdgeTest.RemovesProperty]=]  [==[D:/Projects/GraphLite GDBMS/build/g
 set_tests_properties([=[EdgeTest.RemovesProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:90]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:91]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -83,7 +83,7 @@ add_test([=[EdgeTest.HandlesMissingProperty]=]  [==[D:/Projects/GraphLite GDBMS/
 set_tests_properties([=[EdgeTest.HandlesMissingProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:98]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:99]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -92,7 +92,7 @@ add_test([=[GraphTest.AddsAndRetrievesNode]=]  [==[D:/Projects/GraphLite GDBMS/b
 set_tests_properties([=[GraphTest.AddsAndRetrievesNode]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:107]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:108]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -101,7 +101,7 @@ add_test([=[GraphTest.RejectsDuplicateNode]=]  [==[D:/Projects/GraphLite GDBMS/b
 set_tests_properties([=[GraphTest.RejectsDuplicateNode]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:115]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:116]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -110,7 +110,7 @@ add_test([=[GraphTest.AddsAndRetrievesEdge]=]  [==[D:/Projects/GraphLite GDBMS/b
 set_tests_properties([=[GraphTest.AddsAndRetrievesEdge]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:123]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:124]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -119,7 +119,7 @@ add_test([=[GraphTest.AllowsDifferentLabelsBetweenSameNodes]=]  [==[D:/Projects/
 set_tests_properties([=[GraphTest.AllowsDifferentLabelsBetweenSameNodes]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:138]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:139]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -128,7 +128,7 @@ add_test([=[GraphTest.RejectsDuplicateEdgeIdentity]=]  [==[D:/Projects/GraphLite
 set_tests_properties([=[GraphTest.RejectsDuplicateEdgeIdentity]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:148]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:149]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -137,7 +137,7 @@ add_test([=[GraphTest.RejectsEdgeWithMissingNode]=]  [==[D:/Projects/GraphLite G
 set_tests_properties([=[GraphTest.RejectsEdgeWithMissingNode]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:158]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:159]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -146,7 +146,7 @@ add_test([=[GraphTest.RejectsSelfLoop]=]  [==[D:/Projects/GraphLite GDBMS/build/
 set_tests_properties([=[GraphTest.RejectsSelfLoop]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:166]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:167]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -155,7 +155,7 @@ add_test([=[GraphTest.RemovesEdge]=]  [==[D:/Projects/GraphLite GDBMS/build/grap
 set_tests_properties([=[GraphTest.RemovesEdge]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:174]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:175]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -164,7 +164,7 @@ add_test([=[GraphTest.RetrievesOutgoingEdges]=]  [==[D:/Projects/GraphLite GDBMS
 set_tests_properties([=[GraphTest.RetrievesOutgoingEdges]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:185]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:186]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -173,7 +173,7 @@ add_test([=[GraphTest.RetrievesIncomingEdges]=]  [==[D:/Projects/GraphLite GDBMS
 set_tests_properties([=[GraphTest.RetrievesIncomingEdges]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:198]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:199]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -182,7 +182,7 @@ add_test([=[GraphTest.RemovingNodeRemovesConnectedEdges]=]  [==[D:/Projects/Grap
 set_tests_properties([=[GraphTest.RemovingNodeRemovesConnectedEdges]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:211]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:212]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -191,7 +191,7 @@ add_test([=[BfsTest.VisitsNodesInBreadthFirstOrder]=]  [==[D:/Projects/GraphLite
 set_tests_properties([=[BfsTest.VisitsNodesInBreadthFirstOrder]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:230]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:231]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -200,7 +200,7 @@ add_test([=[BfsTest.HandlesCyclesWithoutRepeatingNodes]=]  [==[D:/Projects/Graph
 set_tests_properties([=[BfsTest.HandlesCyclesWithoutRepeatingNodes]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:246]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:247]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -209,7 +209,7 @@ add_test([=[BfsTest.ReturnsEmptyForMissingStartNode]=]  [==[D:/Projects/GraphLit
 set_tests_properties([=[BfsTest.ReturnsEmptyForMissingStartNode]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:261]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:262]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -218,7 +218,7 @@ add_test([=[BfsTest.VisitsOnlyReachableNodes]=]  [==[D:/Projects/GraphLite GDBMS
 set_tests_properties([=[BfsTest.VisitsOnlyReachableNodes]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:267]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:268]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -227,7 +227,7 @@ add_test([=[BfsTest.RespectsMaximumDepth]=]  [==[D:/Projects/GraphLite GDBMS/bui
 set_tests_properties([=[BfsTest.RespectsMaximumDepth]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:281]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:282]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -236,7 +236,25 @@ add_test([=[BfsTest.FiltersEdgesByLabel]=]  [==[D:/Projects/GraphLite GDBMS/buil
 set_tests_properties([=[BfsTest.FiltersEdgesByLabel]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:295]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:296]==]
+    WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist]=]  [==[D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe]==] [==[--gtest_filter=BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:313]==]
+    WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero]=]  [==[D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe]==] [==[--gtest_filter=BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:334]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -245,7 +263,7 @@ add_test([=[GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties]=]  [==[D:/
 set_tests_properties([=[GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:313]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:347]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -254,7 +272,7 @@ add_test([=[GraphSnapshotTest.ImportRebuildsGraphAndAdjacency]=]  [==[D:/Project
 set_tests_properties([=[GraphSnapshotTest.ImportRebuildsGraphAndAdjacency]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:363]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:397]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -263,7 +281,7 @@ add_test([=[GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph]=]  [==
 set_tests_properties([=[GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:381]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:415]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -272,7 +290,7 @@ add_test([=[StorageManagerTest.RoundTripsGraphAndTypedProperties]=]  [==[D:/Proj
 set_tests_properties([=[StorageManagerTest.RoundTripsGraphAndTypedProperties]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:457]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:491]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -281,7 +299,7 @@ add_test([=[StorageManagerTest.MissingFileLoadsEmptySnapshot]=]  [==[D:/Projects
 set_tests_properties([=[StorageManagerTest.MissingFileLoadsEmptySnapshot]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:548]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:582]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -290,7 +308,7 @@ add_test([=[StorageManagerTest.RejectsMalformedFile]=]  [==[D:/Projects/GraphLit
 set_tests_properties([=[StorageManagerTest.RejectsMalformedFile]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:562]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:596]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -299,7 +317,7 @@ add_test([=[StorageManagerTest.ReplacesExistingDatabaseOnSave]=]  [==[D:/Project
 set_tests_properties([=[StorageManagerTest.ReplacesExistingDatabaseOnSave]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:586]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:620]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -308,7 +326,7 @@ add_test([=[StorageManagerTest.RejectsNegativeNodeId]=]  [==[D:/Projects/GraphLi
 set_tests_properties([=[StorageManagerTest.RejectsNegativeNodeId]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:613]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:647]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -317,7 +335,7 @@ add_test([=[StorageManagerTest.RejectsNonNumericNodeId]=]  [==[D:/Projects/Graph
 set_tests_properties([=[StorageManagerTest.RejectsNonNumericNodeId]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:620]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:654]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -326,7 +344,7 @@ add_test([=[StorageManagerTest.RejectsOverflowingNodeId]=]  [==[D:/Projects/Grap
 set_tests_properties([=[StorageManagerTest.RejectsOverflowingNodeId]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:627]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:661]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -335,7 +353,7 @@ add_test([=[StorageManagerTest.RejectsExtraTokensAfterNodeId]=]  [==[D:/Projects
 set_tests_properties([=[StorageManagerTest.RejectsExtraTokensAfterNodeId]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:634]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:668]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -344,7 +362,7 @@ add_test([=[StorageManagerTest.RejectsNegativeEdgeEndpoint]=]  [==[D:/Projects/G
 set_tests_properties([=[StorageManagerTest.RejectsNegativeEdgeEndpoint]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:641]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:675]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -353,7 +371,7 @@ add_test([=[GraphManagerTest.RejectsMutationBeforeOpen]=]  [==[D:/Projects/Graph
 set_tests_properties([=[GraphManagerTest.RejectsMutationBeforeOpen]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:725]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:759]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -362,7 +380,7 @@ add_test([=[GraphManagerTest.OpensMissingDatabaseAsEmptyGraph]=]  [==[D:/Project
 set_tests_properties([=[GraphManagerTest.OpensMissingDatabaseAsEmptyGraph]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:740]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:774]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -371,7 +389,7 @@ add_test([=[GraphManagerTest.PersistsNodeAcrossRestart]=]  [==[D:/Projects/Graph
 set_tests_properties([=[GraphManagerTest.PersistsNodeAcrossRestart]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:755]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:789]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -380,7 +398,7 @@ add_test([=[GraphManagerTest.PersistsEdgesAcrossRestart]=]  [==[D:/Projects/Grap
 set_tests_properties([=[GraphManagerTest.PersistsEdgesAcrossRestart]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:778]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:812]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -389,7 +407,7 @@ add_test([=[GraphManagerTest.DuplicateNodeDoesNotChangeGraph]=]  [==[D:/Projects
 set_tests_properties([=[GraphManagerTest.DuplicateNodeDoesNotChangeGraph]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:809]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:843]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -398,7 +416,7 @@ add_test([=[GraphManagerTest.DeletingNodePersistsCascadeDeletion]=]  [==[D:/Proj
 set_tests_properties([=[GraphManagerTest.DeletingNodePersistsCascadeDeletion]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:825]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:859]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -407,7 +425,7 @@ add_test([=[GraphManagerTest.AllMutationsRejectCallsBeforeOpen]=]  [==[D:/Projec
 set_tests_properties([=[GraphManagerTest.AllMutationsRejectCallsBeforeOpen]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:857]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:891]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -416,7 +434,7 @@ add_test([=[GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge]=]  [==[D:/Pr
 set_tests_properties([=[GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:883]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:917]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -425,7 +443,7 @@ add_test([=[GraphManagerTest.FailedReopenClearsGraphAndReadiness]=]  [==[D:/Proj
 set_tests_properties([=[GraphManagerTest.FailedReopenClearsGraphAndReadiness]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:901]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:935]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -434,7 +452,7 @@ add_test([=[GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory]=]  [==[D:/Pr
 set_tests_properties([=[GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:936]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:970]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -443,7 +461,7 @@ add_test([=[GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory]=]  [==[D:/Pr
 set_tests_properties([=[GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:952]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:986]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -452,7 +470,7 @@ add_test([=[GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory]=]  [==[D:/Pr
 set_tests_properties([=[GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:969]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1003]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -461,7 +479,7 @@ add_test([=[GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory]=]  [==[D:/Pr
 set_tests_properties([=[GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:988]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1022]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -470,7 +488,7 @@ add_test([=[GraphManagerTest.PersistsNodePropertyAcrossRestart]=]  [==[D:/Projec
 set_tests_properties([=[GraphManagerTest.PersistsNodePropertyAcrossRestart]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1012]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1046]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -479,7 +497,7 @@ add_test([=[GraphManagerTest.UpdatesExistingNodeProperty]=]  [==[D:/Projects/Gra
 set_tests_properties([=[GraphManagerTest.UpdatesExistingNodeProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1046]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1080]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -488,7 +506,7 @@ add_test([=[GraphManagerTest.RemovesNodeProperty]=]  [==[D:/Projects/GraphLite G
 set_tests_properties([=[GraphManagerTest.RemovesNodeProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1070]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1104]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -497,7 +515,7 @@ add_test([=[GraphManagerTest.PersistsEdgePropertyAcrossRestart]=]  [==[D:/Projec
 set_tests_properties([=[GraphManagerTest.PersistsEdgePropertyAcrossRestart]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1087]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1121]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -506,7 +524,7 @@ add_test([=[GraphManagerTest.RemovesEdgeProperty]=]  [==[D:/Projects/GraphLite G
 set_tests_properties([=[GraphManagerTest.RemovesEdgeProperty]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1125]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1159]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -515,7 +533,7 @@ add_test([=[GraphManagerTest.PropertyOperationsRejectMissingEntities]=]  [==[D:/
 set_tests_properties([=[GraphManagerTest.PropertyOperationsRejectMissingEntities]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1147]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1181]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -524,9 +542,27 @@ add_test([=[GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory]=]  [==
 set_tests_properties([=[GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1172]==]
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1206]==]
     WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
-set(graphlite_tests_TESTS [==[NodeTest.CreatesNodeWithCorrectId]==] [==[NodeTest.AddsAndReadsProperty]==] [==[NodeTest.UpdatesExistingProperty]==] [==[NodeTest.RemovesProperty]==] [==[NodeTest.HandlesMissingProperty]==] [==[EdgeTest.CreatesEdgeWithCorrectFields]==] [==[EdgeTest.AddsAndReadsProperty]==] [==[EdgeTest.UpdatesExistingProperty]==] [==[EdgeTest.RemovesProperty]==] [==[EdgeTest.HandlesMissingProperty]==] [==[GraphTest.AddsAndRetrievesNode]==] [==[GraphTest.RejectsDuplicateNode]==] [==[GraphTest.AddsAndRetrievesEdge]==] [==[GraphTest.AllowsDifferentLabelsBetweenSameNodes]==] [==[GraphTest.RejectsDuplicateEdgeIdentity]==] [==[GraphTest.RejectsEdgeWithMissingNode]==] [==[GraphTest.RejectsSelfLoop]==] [==[GraphTest.RemovesEdge]==] [==[GraphTest.RetrievesOutgoingEdges]==] [==[GraphTest.RetrievesIncomingEdges]==] [==[GraphTest.RemovingNodeRemovesConnectedEdges]==] [==[BfsTest.VisitsNodesInBreadthFirstOrder]==] [==[BfsTest.HandlesCyclesWithoutRepeatingNodes]==] [==[BfsTest.ReturnsEmptyForMissingStartNode]==] [==[BfsTest.VisitsOnlyReachableNodes]==] [==[BfsTest.RespectsMaximumDepth]==] [==[BfsTest.FiltersEdgesByLabel]==] [==[GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties]==] [==[GraphSnapshotTest.ImportRebuildsGraphAndAdjacency]==] [==[GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph]==] [==[StorageManagerTest.RoundTripsGraphAndTypedProperties]==] [==[StorageManagerTest.MissingFileLoadsEmptySnapshot]==] [==[StorageManagerTest.RejectsMalformedFile]==] [==[StorageManagerTest.ReplacesExistingDatabaseOnSave]==] [==[StorageManagerTest.RejectsNegativeNodeId]==] [==[StorageManagerTest.RejectsNonNumericNodeId]==] [==[StorageManagerTest.RejectsOverflowingNodeId]==] [==[StorageManagerTest.RejectsExtraTokensAfterNodeId]==] [==[StorageManagerTest.RejectsNegativeEdgeEndpoint]==] [==[GraphManagerTest.RejectsMutationBeforeOpen]==] [==[GraphManagerTest.OpensMissingDatabaseAsEmptyGraph]==] [==[GraphManagerTest.PersistsNodeAcrossRestart]==] [==[GraphManagerTest.PersistsEdgesAcrossRestart]==] [==[GraphManagerTest.DuplicateNodeDoesNotChangeGraph]==] [==[GraphManagerTest.DeletingNodePersistsCascadeDeletion]==] [==[GraphManagerTest.AllMutationsRejectCallsBeforeOpen]==] [==[GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge]==] [==[GraphManagerTest.FailedReopenClearsGraphAndReadiness]==] [==[GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory]==] [==[GraphManagerTest.PersistsNodePropertyAcrossRestart]==] [==[GraphManagerTest.UpdatesExistingNodeProperty]==] [==[GraphManagerTest.RemovesNodeProperty]==] [==[GraphManagerTest.PersistsEdgePropertyAcrossRestart]==] [==[GraphManagerTest.RemovesEdgeProperty]==] [==[GraphManagerTest.PropertyOperationsRejectMissingEntities]==] [==[GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory]==])
+add_test([=[GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph]=]  [==[D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe]==] [==[--gtest_filter=GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1239]==]
+    WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty]=]  [==[D:/Projects/GraphLite GDBMS/build/graphlite_tests.exe]==] [==[--gtest_filter=GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[D:\Projects\GraphLite GDBMS\tests\smoke_test.cpp:1259]==]
+    WORKING_DIRECTORY [==[D:/Projects/GraphLite GDBMS/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+set(graphlite_tests_TESTS [==[NodeTest.CreatesNodeWithCorrectId]==] [==[NodeTest.AddsAndReadsProperty]==] [==[NodeTest.UpdatesExistingProperty]==] [==[NodeTest.RemovesProperty]==] [==[NodeTest.HandlesMissingProperty]==] [==[EdgeTest.CreatesEdgeWithCorrectFields]==] [==[EdgeTest.AddsAndReadsProperty]==] [==[EdgeTest.UpdatesExistingProperty]==] [==[EdgeTest.RemovesProperty]==] [==[EdgeTest.HandlesMissingProperty]==] [==[GraphTest.AddsAndRetrievesNode]==] [==[GraphTest.RejectsDuplicateNode]==] [==[GraphTest.AddsAndRetrievesEdge]==] [==[GraphTest.AllowsDifferentLabelsBetweenSameNodes]==] [==[GraphTest.RejectsDuplicateEdgeIdentity]==] [==[GraphTest.RejectsEdgeWithMissingNode]==] [==[GraphTest.RejectsSelfLoop]==] [==[GraphTest.RemovesEdge]==] [==[GraphTest.RetrievesOutgoingEdges]==] [==[GraphTest.RetrievesIncomingEdges]==] [==[GraphTest.RemovingNodeRemovesConnectedEdges]==] [==[BfsTest.VisitsNodesInBreadthFirstOrder]==] [==[BfsTest.HandlesCyclesWithoutRepeatingNodes]==] [==[BfsTest.ReturnsEmptyForMissingStartNode]==] [==[BfsTest.VisitsOnlyReachableNodes]==] [==[BfsTest.RespectsMaximumDepth]==] [==[BfsTest.FiltersEdgesByLabel]==] [==[BfsTest.ReportsMinimumHopDepthWhenMultipleRoutesExist]==] [==[BfsTest.DepthZeroReturnsOnlyTheStartNodeAtDepthZero]==] [==[GraphSnapshotTest.ExportPreservesNodesEdgesAndProperties]==] [==[GraphSnapshotTest.ImportRebuildsGraphAndAdjacency]==] [==[GraphSnapshotTest.RejectsInvalidSnapshotWithoutChangingGraph]==] [==[StorageManagerTest.RoundTripsGraphAndTypedProperties]==] [==[StorageManagerTest.MissingFileLoadsEmptySnapshot]==] [==[StorageManagerTest.RejectsMalformedFile]==] [==[StorageManagerTest.ReplacesExistingDatabaseOnSave]==] [==[StorageManagerTest.RejectsNegativeNodeId]==] [==[StorageManagerTest.RejectsNonNumericNodeId]==] [==[StorageManagerTest.RejectsOverflowingNodeId]==] [==[StorageManagerTest.RejectsExtraTokensAfterNodeId]==] [==[StorageManagerTest.RejectsNegativeEdgeEndpoint]==] [==[GraphManagerTest.RejectsMutationBeforeOpen]==] [==[GraphManagerTest.OpensMissingDatabaseAsEmptyGraph]==] [==[GraphManagerTest.PersistsNodeAcrossRestart]==] [==[GraphManagerTest.PersistsEdgesAcrossRestart]==] [==[GraphManagerTest.DuplicateNodeDoesNotChangeGraph]==] [==[GraphManagerTest.DeletingNodePersistsCascadeDeletion]==] [==[GraphManagerTest.AllMutationsRejectCallsBeforeOpen]==] [==[GraphManagerTest.DeletingMissingEdgeReturnsMissingEdge]==] [==[GraphManagerTest.FailedReopenClearsGraphAndReadiness]==] [==[GraphManagerTest.FailedNodeCreateDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedEdgeCreateDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedNodeDeleteDoesNotCommitToMemory]==] [==[GraphManagerTest.FailedEdgeDeleteDoesNotCommitToMemory]==] [==[GraphManagerTest.PersistsNodePropertyAcrossRestart]==] [==[GraphManagerTest.UpdatesExistingNodeProperty]==] [==[GraphManagerTest.RemovesNodeProperty]==] [==[GraphManagerTest.PersistsEdgePropertyAcrossRestart]==] [==[GraphManagerTest.RemovesEdgeProperty]==] [==[GraphManagerTest.PropertyOperationsRejectMissingEntities]==] [==[GraphManagerTest.FailedNodePropertySaveDoesNotCommitToMemory]==] [==[GraphManagerTest.RejectsInvalidNamesWithoutChangingGraph]==] [==[GraphManagerTest.RemovingMissingPropertiesReturnsMissingProperty]==])
