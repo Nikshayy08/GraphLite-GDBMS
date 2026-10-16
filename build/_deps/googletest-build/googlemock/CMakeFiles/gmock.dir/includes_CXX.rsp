@@ -1,0 +1,1 @@
+-I"D:/Projects/GraphLite GDBMS/build/_deps/googletest-src/googlemock/include" -I"D:/Projects/GraphLite GDBMS/build/_deps/googletest-src/googlemock" -isystem "D:/Projects/GraphLite GDBMS/build/_deps/googletest-src/googletest/include" -isystem "D:/Projects/GraphLite GDBMS/build/_deps/googletest-src/googletest"

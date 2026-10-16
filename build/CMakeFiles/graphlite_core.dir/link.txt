@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libgraphlite_core.a CMakeFiles/graphlite_core.dir/src/node.cpp.obj CMakeFiles/graphlite_core.dir/src/edge.cpp.obj CMakeFiles/graphlite_core.dir/src/graph.cpp.obj CMakeFiles/graphlite_core.dir/src/storage_manager.cpp.obj CMakeFiles/graphlite_core.dir/src/graph_manager.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libgraphlite_core.a

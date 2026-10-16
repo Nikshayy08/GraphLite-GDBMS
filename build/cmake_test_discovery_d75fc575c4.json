@@ -1,0 +1,343 @@
+{
+  "tests": 59,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "NodeTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "CreatesNodeWithCorrectId",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 24
+        },
+        {
+          "name": "AddsAndReadsProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 29
+        },
+        {
+          "name": "UpdatesExistingProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 38
+        },
+        {
+          "name": "RemovesProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 46
+        },
+        {
+          "name": "HandlesMissingProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "name": "EdgeTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "CreatesEdgeWithCorrectFields",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 63
+        },
+        {
+          "name": "AddsAndReadsProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 71
+        },
+        {
+          "name": "UpdatesExistingProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 80
+        },
+        {
+          "name": "RemovesProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 90
+        },
+        {
+          "name": "HandlesMissingProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "name": "GraphTest",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "AddsAndRetrievesNode",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 107
+        },
+        {
+          "name": "RejectsDuplicateNode",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 115
+        },
+        {
+          "name": "AddsAndRetrievesEdge",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 123
+        },
+        {
+          "name": "AllowsDifferentLabelsBetweenSameNodes",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 138
+        },
+        {
+          "name": "RejectsDuplicateEdgeIdentity",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 148
+        },
+        {
+          "name": "RejectsEdgeWithMissingNode",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 158
+        },
+        {
+          "name": "RejectsSelfLoop",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 166
+        },
+        {
+          "name": "RemovesEdge",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 174
+        },
+        {
+          "name": "RetrievesOutgoingEdges",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 185
+        },
+        {
+          "name": "RetrievesIncomingEdges",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 198
+        },
+        {
+          "name": "RemovingNodeRemovesConnectedEdges",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 211
+        }
+      ]
+    },
+    {
+      "name": "BfsTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "VisitsNodesInBreadthFirstOrder",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 230
+        },
+        {
+          "name": "HandlesCyclesWithoutRepeatingNodes",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 246
+        },
+        {
+          "name": "ReturnsEmptyForMissingStartNode",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 261
+        },
+        {
+          "name": "VisitsOnlyReachableNodes",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 267
+        },
+        {
+          "name": "RespectsMaximumDepth",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 281
+        },
+        {
+          "name": "FiltersEdgesByLabel",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 295
+        }
+      ]
+    },
+    {
+      "name": "GraphSnapshotTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ExportPreservesNodesEdgesAndProperties",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 313
+        },
+        {
+          "name": "ImportRebuildsGraphAndAdjacency",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 363
+        },
+        {
+          "name": "RejectsInvalidSnapshotWithoutChangingGraph",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 381
+        }
+      ]
+    },
+    {
+      "name": "StorageManagerTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "RoundTripsGraphAndTypedProperties",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 457
+        },
+        {
+          "name": "MissingFileLoadsEmptySnapshot",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 548
+        },
+        {
+          "name": "RejectsMalformedFile",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 562
+        },
+        {
+          "name": "ReplacesExistingDatabaseOnSave",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 586
+        },
+        {
+          "name": "RejectsNegativeNodeId",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 613
+        },
+        {
+          "name": "RejectsNonNumericNodeId",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 620
+        },
+        {
+          "name": "RejectsOverflowingNodeId",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 627
+        },
+        {
+          "name": "RejectsExtraTokensAfterNodeId",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 634
+        },
+        {
+          "name": "RejectsNegativeEdgeEndpoint",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 641
+        }
+      ]
+    },
+    {
+      "name": "GraphManagerTest",
+      "tests": 20,
+      "testsuite": [
+        {
+          "name": "RejectsMutationBeforeOpen",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 725
+        },
+        {
+          "name": "OpensMissingDatabaseAsEmptyGraph",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 740
+        },
+        {
+          "name": "PersistsNodeAcrossRestart",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 755
+        },
+        {
+          "name": "PersistsEdgesAcrossRestart",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 778
+        },
+        {
+          "name": "DuplicateNodeDoesNotChangeGraph",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 809
+        },
+        {
+          "name": "DeletingNodePersistsCascadeDeletion",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 825
+        },
+        {
+          "name": "AllMutationsRejectCallsBeforeOpen",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 857
+        },
+        {
+          "name": "DeletingMissingEdgeReturnsMissingEdge",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 883
+        },
+        {
+          "name": "FailedReopenClearsGraphAndReadiness",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 901
+        },
+        {
+          "name": "FailedNodeCreateDoesNotCommitToMemory",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 936
+        },
+        {
+          "name": "FailedEdgeCreateDoesNotCommitToMemory",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 952
+        },
+        {
+          "name": "FailedNodeDeleteDoesNotCommitToMemory",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 969
+        },
+        {
+          "name": "FailedEdgeDeleteDoesNotCommitToMemory",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 988
+        },
+        {
+          "name": "PersistsNodePropertyAcrossRestart",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1012
+        },
+        {
+          "name": "UpdatesExistingNodeProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1046
+        },
+        {
+          "name": "RemovesNodeProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1070
+        },
+        {
+          "name": "PersistsEdgePropertyAcrossRestart",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1087
+        },
+        {
+          "name": "RemovesEdgeProperty",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1125
+        },
+        {
+          "name": "PropertyOperationsRejectMissingEntities",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1147
+        },
+        {
+          "name": "FailedNodePropertySaveDoesNotCommitToMemory",
+          "file": "D:\\Projects\\GraphLite GDBMS\\tests\\smoke_test.cpp",
+          "line": 1172
+        }
+      ]
+    }
+  ]
+}
